@@ -1,0 +1,118 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .ecom__card, .custom__card, .footer__card {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .footer__title, .custom__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .nav__burger {
+        display: flex;
+        order: 1;
+    }
+    
+    .menu {
+        position: absolute;
+        right: 20px;
+        top: 100%;
+        background: #fff;
+        flex-direction: column;
+        min-width: 200px;
+        visibility: hidden;
+    }
+    
+    .nav__burger:focus ~ .menu {
+        visibility: visible;
+    }
+    
+    .nav {
+        position: relative;
+    }
+    
+    .ecom__content, .custom__content, .footer__content {
+        flex-wrap: wrap;
+    }
+    
+    .custom__title {
+        margin-top: 10px;
+    }
+    
+    .footer__title {
+        margin-bottom: 15px;
+    }
+    
+    .footer__card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .ecom__card, .custom__card, .footer__card {
+        max-width: 240px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .nav__content {
+        flex-wrap: wrap;
+    }
+    
+    .nav__form {
+        max-width: 180px;
+    }
+    
+    .header__title, .info__title, .collection__title {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .collection {
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .header__content {
+        padding: 20px 0;
+    }
+    
+    .ecom__content, .custom__content, .footer__content {
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .ecom__card, .custom__card, .footer__card {
+        max-width: 255px;
+    }
+    
+    .footer__card {
+        text-align: center;
+    }
+    
+    .footer__link_my {
+        justify-content: center;
+    }
+}
